@@ -51,3 +51,9 @@ export function showLoader() {
 export function hideLoader() {
   refs.loader.classList.add('hidden');
 }
+export function showLoadMoreButton() {
+  refs.loadMoreBtn.classList.remove('closed');
+}
+export function hideLoadMoreButton() {
+  refs.loadMoreBtn.classList.add('closed');
+}

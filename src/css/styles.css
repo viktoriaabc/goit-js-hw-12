@@ -34,7 +34,7 @@ button {
   justify-content: center;
 }
 .gallery-item {
-  max-width: 450px;
+  max-width: 250px;
   border: 2px;
   border-color: blueviolet;
   border-style: double;
@@ -87,4 +87,15 @@ button {
   100% {
     transform: rotate(360deg);
   }
+}
+.load-more-btn.closed {
+  display: none;
+}
+.load-more-btn {
+  display: block;
+  min-width: 150px;
+  min-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
