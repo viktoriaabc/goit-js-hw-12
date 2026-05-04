@@ -1,8 +1,6 @@
 import axios from 'axios';
 import iziToast from 'izitoast';
 
-import { refs } from './refs';
-
 axios.defaults.baseURL = 'https://pixabay.com/api/';
 
 export const getImagesByQuery = async (query, page) => {
