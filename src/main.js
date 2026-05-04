@@ -48,7 +48,6 @@ async function onSearchFormSubmit(event) {
     const { hits, totalHits } = await getImagesByQuery(query, page);
 
     if (hits.length === 0) {
-      refs.loadMoreBtn.removeEventListener('click', onLoadMoreButtonClick);
       iziToast.warning({
         message:
           'Sorry, there are no images matching your search query. Please try again!',
